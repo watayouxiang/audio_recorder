@@ -1,4 +1,5 @@
 name: audio_recorder_example
+version: 1.0.2
 description: Demonstrates how to use the audio_recorder plugin.
 
 environment:
