@@ -118,6 +118,6 @@ class AppBodyState extends State<AppBody> {
       _recording = recording;
       _isRecording = isRecording;
     });
-    _controller.text = recording.path;
+    _controller.text = recording.path ?? '';
   }
 }
